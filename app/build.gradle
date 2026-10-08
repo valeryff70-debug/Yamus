@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ru.yandex.autoplay'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ru.yandex.autoplay'
+        minSdk 29
+        targetSdk 30
+        versionCode 1
+        versionName '1.0'
+    }
+}
